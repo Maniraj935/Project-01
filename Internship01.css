@@ -1,0 +1,60 @@
+/* General reset and style */
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+}
+/* Navigation menu styling */
+nav{
+    position:fixed;
+    width:100%;
+    background-color: #000000;
+    padding:10px0;
+    top:0;
+    left:0;
+    z-index:1000;
+    transition:background-color 0.3s ease-in-out;
+}
+nav ul{
+    list-style:circle;
+    text-align:center;
+}
+nav ul li{
+    display:inline;
+    margin-right:20px;
+}
+nav ul li a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    font-size:18px;
+    padding:10px;
+    transition:color 0.3s ease-in-out;
+}
+nav ul il a:hover{
+    color: #fffbfb;/*Hover color for the menu items */
+}
+/* Content section styling */
+.content{
+    padding:100px20px;
+    height:100vh;
+}
+#home{
+    background-color:#00000088;
+}
+#about{
+    background-color:#00000088;
+}
+#services{
+    background-color:#00000088;
+}
+#contact{
+    background-color:#00000088;
+}
+/* Scroll-based background color change */
+.scrolled{
+    background-color:#111 !important;
+}
